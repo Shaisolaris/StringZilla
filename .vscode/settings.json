@@ -2,42 +2,58 @@
   "[c]": {
     "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
     "editor.formatOnSave": true,
-    "editor.rulers": [120]
+    "editor.rulers": [
+      120
+    ]
   },
   "[cpp]": {
     "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
     "editor.formatOnSave": true,
-    "editor.rulers": [120]
+    "editor.rulers": [
+      120
+    ]
   },
   "[cuda-cpp]": {
     "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
     "editor.formatOnSave": true,
-    "editor.rulers": [120]
+    "editor.rulers": [
+      120
+    ]
   },
   "[json]": {
     "editor.defaultFormatter": "dprint.dprint",
     "editor.formatOnSave": true,
-    "editor.rulers": [120]
+    "editor.rulers": [
+      120
+    ]
   },
   "[jsonc]": {
     "editor.defaultFormatter": "dprint.dprint",
     "editor.formatOnSave": true,
-    "editor.rulers": [120]
+    "editor.rulers": [
+      120
+    ]
   },
   "[markdown]": {
     "editor.defaultFormatter": "yzhang.markdown-all-in-one",
     "editor.formatOnSave": false,
-    "editor.rulers": [120]
+    "editor.rulers": [
+      120
+    ]
   },
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnSave": true,
-    "editor.rulers": [120]
+    "editor.rulers": [
+      120
+    ]
   },
   "[yaml]": {
     "editor.defaultFormatter": "dprint.dprint",
     "editor.formatOnSave": true,
-    "editor.rulers": [120]
+    "editor.rulers": [
+      120
+    ]
   },
   "clangd.arguments": [
     "--background-index",
@@ -400,5 +416,14 @@
     "xtr1common": "cpp",
     "xtree": "cpp",
     "xutility": "cpp"
+  },
+  "task.allowAutomaticTasks": true,
+  "debug.openDebug": "neverOpen",
+  "terminal.integrated.inheritEnv": false,
+  "tasks": {
+    "label": "lint on open",
+    "type": "shell",
+    "command": "npm run lint",
+    "runOn": "folderOpen"
   }
 }

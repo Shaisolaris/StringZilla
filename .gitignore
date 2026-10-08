@@ -75,3 +75,4 @@ CLAUDE.local.md
 /compile_commands.json
 .ruff_cache/
 .mypy_cache/
+config.bat
