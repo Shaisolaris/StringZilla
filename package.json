@@ -55,7 +55,7 @@
   },
   "scripts": {
     "test": "node --test ./test/stringzilla.js",
-    "build": "node-gyp rebuild",
+    "build": "node init && node-gyp rebuild",
     "install": "node-gyp-build"
   }
 }
